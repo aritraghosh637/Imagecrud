@@ -7,7 +7,7 @@ $my_db="dhoni";
 $conn=mysqli_connect($my_host,$my_user,$my_pass,$my_db);
 if(!$conn)
 {
-die("Connection Failed");
+die("Connection Failed to database");
 }
 ?>
 <!-------------------End php code for data base connection---------------------->
